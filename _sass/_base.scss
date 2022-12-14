@@ -21,17 +21,6 @@ table {
   }
 }
 
-a, table.table a {
-  color: var(--global-theme-color);
-  &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
-  }
-  &:hover:after :not(.nav-item.dropdown) {
-    width: 100%;
-  }
-}
-
 figure, img {
   max-width: 90vw;
 }
@@ -125,7 +114,6 @@ blockquote {
   margin-bottom: 2rem;
   font-size: 0.875rem;
   a {
-    color: inherit;
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
@@ -463,7 +451,15 @@ footer.sticky-bottom {
 
 // Publications
 
+span.star {
+  color: var(--global-theme-color);
+}
+
 .publications {
+  a {
+    color: var(--global-theme-color);
+  }
+
   margin-top: 2rem;
   h1 {
     color: var(--global-theme-color);
@@ -530,8 +526,9 @@ footer.sticky-bottom {
           }
         }
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
+          font-weight: bold;
+          color: var(--global-theme-color);
         }
         > span.more-authors {
           color: var(--global-text-color-light);

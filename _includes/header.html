@@ -94,6 +94,20 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+
+<!--              {%- for page in site.pages -%}-->
+<!--                {% if page.permalink == '/cv/' %}-->
+<!--                  {% assign cv_pdf = page.cv_pdf %}-->
+<!--                  {% assign cv_title = page.title %}-->
+<!--                {% endif %}-->
+<!--              {% endfor %}-->
+
+<!--              &lt;!&ndash; CV &ndash;&gt;-->
+<!--              <li class="nav-item">-->
+<!--                <a class="nav-link" href="{{ cv_pdf | prepend: 'assets/pdf/' | relative_url }}">{{ cv_title }}-->
+<!--                </a>-->
+<!--              </li>-->
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->

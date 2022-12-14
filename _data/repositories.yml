@@ -1,12 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mryab
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - learning-at-home/hivemind
+  - mryab/learning-at-home
+  - bigscience-workshop/petals
+  - yandex-research/DeDLOC
+  - mryab/efficient-dl-systems
+  - yandex-research/RuLeanALBERT
+  - RussianNLP/RuCoLA
+  - yandex-research/crosslingual_winograd
+  - yandex-research/moshpit-sgd
+  - yandex-research/graph-glove

@@ -1,25 +1,28 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: center
+  image: photo.png
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address:
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Senior Research Scientist at [Yandex Research](https://research.yandex.com/) and a Ph.D. student (graduating in mid-2023) at the [Faculty of Computer Science](https://cs.hse.ru/en/) of [HSE University](https://www.hse.ru/en/) advised by Artem Babenko.
+At the [BigScience Workshop](https://bigscience.huggingface.co/), I served as the chair of the Engineering and Scaling working group.
+Earlier, I was a Machine Learning intern at [Replika](https://replika.ai/) and [Yandex Translate](https://translate.yandex.com/).
+During my undergraduate studies, I was a member of the [Bayesian Methods Research Group](https://bayesgroup.ru/) and worked under the supervision of [Ekaterina Lobacheva](https://scholar.google.com/citations?user=8D4Be1sAAAAJ&hl=en).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Besides my research work, I also teach [Efficient Deep Learning Systems](https://github.com/mryab/efficient-dl-systems) at HSE University and [Yandex School of Data Analysis](https://academy.yandex.com/dataschool) (all materials are in English) and [Deep Learning](https://github.com/mryab/dl-hse-ami) at HSE University (mostly in Russian).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am mainly interested in solving new problems with Natural Language Processing models and making current advances in deep learning more efficient and broadly accessible. In particular, my research on decentralized deep learning has served as a basis of [Hivemind](https://github.com/learning-at-home/hivemind), a PyTorch library for training neural networks over heterogeneous, unreliable and poorly connected hardware.
+Before that, I also worked on topics like uncertainty estimation in machine translation, graph-based word representations, neural networks with adaptive computation, and gradient optimization of decoding hyperparameters in language generation.
+
+If you have any questions about my work, have ideas for collaboration or simply want to say hi, feel free to drop me a line using any of the contact links below!
