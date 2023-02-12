@@ -25,4 +25,4 @@ Besides my research work, I also teach [Efficient Deep Learning Systems](https:/
 I am mainly interested in solving new problems with Natural Language Processing models and making current advances in deep learning more efficient and broadly accessible. In particular, my research on decentralized deep learning has served as a basis of [Hivemind](https://github.com/learning-at-home/hivemind), a PyTorch library for training neural networks over heterogeneous, unreliable and poorly connected hardware.
 Before that, I also worked on topics like uncertainty estimation in machine translation, graph-based word representations, neural networks with adaptive computation, and gradient optimization of decoding hyperparameters in language generation.
 
-If you have any questions about my work, have ideas for collaboration or simply want to say hi, feel free to drop me a line using any of the contact links below!
+If you have any questions about my work, have ideas for collaboration or simply want to say hi, feel free to drop me a line using any of the links below!
