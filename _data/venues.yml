@@ -3,3 +3,9 @@
 
 "EMNLP":
   color: "#eb445f"
+
+"ArXiv":
+  color: "#ff8652"
+
+"ICML":
+  color: "#267856"
