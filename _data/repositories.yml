@@ -3,10 +3,11 @@ github_users:
 
 github_repos:
   - learning-at-home/hivemind
-  - mryab/learning-at-home
+  - FMInference/FlexGen
   - bigscience-workshop/petals
-  - yandex-research/DeDLOC
   - mryab/efficient-dl-systems
+  - mryab/learning-at-home
+  - yandex-research/DeDLOC
   - yandex-research/RuLeanALBERT
   - RussianNLP/RuCoLA
   - yandex-research/crosslingual_winograd
